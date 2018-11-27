@@ -3,28 +3,23 @@
 Solve any Rubik's cube in a quick and efficent way. By using Thisletwaite's algorithm, we can guarenty 52 moves as a maximum. Outputs both a list of moves required to solve the cube and an OpenGl rendition of the shuffled cube being solved.
 
 ## Showcase Video
-[![Voxel Video](screenshots/2.png)](https://www.youtube.com/watch?v=1Bxgr2ItPq4 "Thistlethwaite Rubik's Solver")
+[![Rubik Video](screenshots/2.png)](https://www.youtube.com/watch?v=KKVDuF6clww "Thistlethwaite Rubik's Solver")
 
-## Features
-* Snow, rock, grass and sand block type
-* Transparent water
-* Trees
-* Caves and overhangs
-* Different player modes
-* Day-Night shift
-* Runs at >~ 50 FPS in full screen mode on iMac
-* Virtually infinite map (larger than what one can possible visit in days, then it might start to repeat after that)
-* Rendering over 160 blocks at any direction at any given time, which make 26214400 (320 * 320 * 256) possiblly visiable blocks in view
+## Screenshot
 
-## Screenshots
+![alt text](screenshots/1.png)
 
-![alt text](textures/1.jpg)
+## How it works
 
-![alt text](textures/2.jpg)
+![alt text](screenshots/start.png)
 
-![alt text](textures/3.jpg)
+![alt text](screenshots/phase1.png)
 
-![alt text](textures/4.jpg)
+![alt text](screenshots/phase2.png)
+
+![alt text](screenshots/phase3.png)
+
+![alt text](screenshots/phase4.png)
 
 ## Comiling and Running
 
@@ -32,10 +27,17 @@ Run `make` to compile. Needed libraries will be downloaded and an executable wil
 
 Run with:
 ```
-./Vox [-r | seed(integer)]
+./Rubik "shuffle string"
 ```
-Where the terrain will be generated deterministically based on the seed given.
-`-r` option will use random seed (based on current time)
+Shuffle string should contain the different moves used to shuffle your cube,
+
+you can use:
+*R
+*L
+*F
+*B
+*D
+*U
 
 ## Runtime Controls
 
