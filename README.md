@@ -1,14 +1,11 @@
-# Voxel Landscape Engine
+# Rubik's Solver
 
-Minecraft style voxel terrain engine made from scratch using OpenGL in C++.
-
-This project is done in collaboration with Conan Wu (conanwu777) during our visit at [Unit Factory](https://unit.ua/en/) in Kiev, Ukraine.
+Solve any Rubik's cube in a quick and efficent way. By using Thisletwaite's algorithm, we can guarenty 52 moves as a maximum. Outputs both a list of moves required to solve the cube and an OpenGl rendition of the shuffled cube being solved.
 
 ## Showcase Video
-[![Voxel Video](screenshots/2.png)](https://www.youtube.com/watch?v=1Bxgr2ItPq4 "Voxel Landscape Engine")
+[![Voxel Video](screenshots/2.png)](https://www.youtube.com/watch?v=1Bxgr2ItPq4 "Thistlethwaite Rubik's Solver")
 
 ## Features
-
 * Snow, rock, grass and sand block type
 * Transparent water
 * Trees
