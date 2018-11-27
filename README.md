@@ -9,6 +9,8 @@ Solve any Rubik's cube in a quick and efficent way. By using Thisletwaite's algo
 
 ![alt text](screenshots/1.png)
 
+![alt text](screenshots/3.png)
+
 ## How it works
 
 ![alt text](screenshots/start.png)
